@@ -1,0 +1,54 @@
+
+.grid.container{
+display: flex;
+color: white;
+background-color: black;
+margin: 40px 70px 40px 70px;
+border-radius: 5px;
+
+}
+
+.grid.options{
+display: flex;
+flex-direction: column;
+margin: 40px;
+border-right: solid rgb(87, 87, 87) 2px;
+padding-right: 300px;
+}
+
+/*Pixel sketch header*/
+#header{
+font-size: 40px;
+padding-bottom: 10px;
+border-bottom: solid 2px rgb(99, 99, 99);
+background: linear-gradient(90deg, rgb(0, 36, 242), rgb(157, 0, 255), rgb(200, 0, 255));
+color: transparent;
+background-clip: text;
+}
+
+/*brush size container*/
+#brush-size{
+display: flex;
+flex-direction: column;
+padding-bottom: 50px;
+}
+
+#brush-size span{
+    padding-bottom: 10px;
+}
+
+/*color dropdown container*/
+#color{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+
+}
+
+#color span{
+    padding-bottom: 10px;
+}
+
+#color-choice{
+
+}
