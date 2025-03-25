@@ -11,19 +11,20 @@
   <div class = "grid container">
     <div class="grid options">
         <h2 id = "header">Pixel Sketch</h2>
-        <div id = "brush-size">
-            <span>Brush Size</span>
-            <input type ="range">
+        <div id = "canvas-size">
+            <span>Canvas Size</span>
+            <input placeholder = "Rows" type ="number" id ="range-rows">
+            <input placeholder="Columns" type = "number" id="range-columns">
         </div>
         <div id="color">
             <span> Choose Color</span>
-            <select name="colors" id = "color-choice">
-             <option value = "white">white</option>
-             <option value = "black">black</option>
-             <option value = "red">red</option>
-             <option value = "orange">orange</option>
-             <option value = "blue">blue</option>
-             <option value = "green" >green</option>
+            <select name="colors" id = "color-choice" class = "color">
+             <option class = "color-option" value = "white">white</option>
+             <option class = "color-option" value = "black">black</option>
+             <option class = "color-option" value = "red">red</option>
+             <option class = "color-option" value = "orange">orange</option>
+             <option class = "color-option" value = "blue">blue</option>
+             <option class = "color-option" value = "green" >green</option>
             </select>
         </div>
     </div>

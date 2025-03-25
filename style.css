@@ -26,14 +26,14 @@ color: transparent;
 background-clip: text;
 }
 
-/*brush size container*/
-#brush-size{
+/*canvas size container*/
+#canvas-size{
 display: flex;
 flex-direction: column;
 padding-bottom: 50px;
 }
 
-#brush-size span{
+#canvas-size span{
     padding-bottom: 10px;
 }
 
@@ -51,4 +51,27 @@ padding-bottom: 50px;
 
 #color-choice{
 
+}
+
+/* grid layout. rows and columns*/
+
+.grid.layout{
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    border: solid rgb(224, 224, 224) 1px;
+    margin: 40px 40px 40px 40px;
+
+}
+
+.grid.layout .grid-col{
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border: solid black 1px;
+}
+
+.grid-row{
+    display: flex;
 }
