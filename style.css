@@ -34,10 +34,21 @@ background-clip: text;
 display: flex;
 flex-direction: column;
 padding-bottom: 50px;
+gap: 10px;
+
 }
 
 #canvas-size span{
     padding-bottom: 10px;
+}
+
+#canvas-size input{
+    border-radius: 5px;
+    border: solid black 2px;
+}
+
+#canvas-size input:hover{
+    border: solid red 2px;
 }
 
 /*color dropdown container*/
@@ -45,7 +56,8 @@ padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
-
+    border-radius: 5px;
+    border: solid black 2px;
 }
 
 #color span{
