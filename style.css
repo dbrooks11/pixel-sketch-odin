@@ -1,9 +1,11 @@
 
-.grid.container{
+.container{
 display: flex;
 color: white;
 background-color: black;
-margin: 40px 70px 40px 70px;
+margin: 40px 70px;
+min-height: 600px;
+
 border-radius: 5px;
 
 }
@@ -12,8 +14,9 @@ border-radius: 5px;
 display: flex;
 flex-direction: column;
 margin: 40px;
+min-width: 120px;
 border-right: solid rgb(87, 87, 87) 2px;
-padding-right: 300px;
+padding-right:200px;
 }
 
 /*Pixel sketch header*/
@@ -49,29 +52,35 @@ padding-bottom: 50px;
     padding-bottom: 10px;
 }
 
-#color-choice{
 
-}
 
 /* grid layout. rows and columns*/
 
 .grid.layout{
     display: flex;
     flex-direction: column;
-    width:fit-content;
-    border: solid rgb(224, 224, 224) 1px;
-    margin: 40px 40px 40px 40px;
+    margin: 40px 40px 40px 100px;
+    max-width: 600px;
+    max-height: 600px;
+    flex-grow: 1;
+    overflow:hidden;
+    justify-content: center;
+
 
 }
 
 .grid.layout .grid-col{
-    text-align: center;
-    height: 40px;
-    width: 40px;
+    flex: 1 0 auto; 
+    aspect-ratio: 1; 
+    min-width: 10px;
+    min-height: 10px;
     background-color: white;
     border: solid black 1px;
+    
 }
 
 .grid-row{
     display: flex;
+    min-height: 0;
 }
+

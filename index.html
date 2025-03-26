@@ -8,25 +8,27 @@
     <title>Pixel Sketch</title>
 </head>
 <body>
-  <div class = "grid container">
+  <div class = "container">
     <div class="grid options">
         <h2 id = "header">Pixel Sketch</h2>
         <div id = "canvas-size">
             <span>Canvas Size</span>
-            <input placeholder = "Rows" type ="number" id ="range-rows">
-            <input placeholder="Columns" type = "number" id="range-columns">
+            <input placeholder = "Rows (1-100)" type ="number" id ="range-rows">
+            <input placeholder="Columns (1-100)" type = "number" id="range-columns">
         </div>
         <div id="color">
             <span> Choose Color</span>
             <select name="colors" id = "color-choice" class = "color">
-             <option class = "color-option" value = "white">white</option>
              <option class = "color-option" value = "black">black</option>
+             <option class = "color-option" value = "white">white</option>
              <option class = "color-option" value = "red">red</option>
              <option class = "color-option" value = "orange">orange</option>
              <option class = "color-option" value = "blue">blue</option>
              <option class = "color-option" value = "green" >green</option>
+             <option class = "color-option" value ="rainbow">rainbow</option>
             </select>
         </div>
+        <button id = "clear">Clear Grid</button>
     </div>
     <div class = "grid layout">
 
