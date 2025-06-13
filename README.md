@@ -11,7 +11,7 @@ This is a simple pixel sketch application built as part of [The Odin Project](ht
 
 ## Live Demo
 
-[View the live demo](https://dbrooks11.github.io/pixel-sketch-odin)
+[View the live demo](https://simplepixelsketch.vercel.app/)
 
 ## Technologies Used
 
